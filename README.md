@@ -7,7 +7,7 @@ This section outlines the steps for collaborating on this project using Git. Eac
 Before you begin working on the project, clone the repository to your local machine:
 
 ```bash
-git clone [https://github.com/your-username/your-repository.git](https://github.com/MouadGhouti/Trilingo.git)
+git clone https://github.com/MouadGhouti/Trilingo.git
 ```
 
 This will download the repository and its files to your local environment.
