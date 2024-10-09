@@ -1,9 +1,4 @@
 ## Notes for Colaboration 
-Sure! Here are the instructions for a **Typical Workflow** that you can add to your README file:
-
----
-
-## Typical Git Workflow
 
 This section outlines the steps for collaborating on this project using Git. Each team member should follow these steps to ensure smooth collaboration and version control.
 
@@ -12,7 +7,7 @@ This section outlines the steps for collaborating on this project using Git. Eac
 Before you begin working on the project, clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/your-repository.git
+git clone [https://github.com/your-username/your-repository.git](https://github.com/MouadGhouti/Trilingo.git)
 ```
 
 This will download the repository and its files to your local environment.
@@ -83,5 +78,3 @@ git pull origin master
 This ensures your local `master` branch is in sync with the remote repository.
 
 ---
-
-You can copy and paste these instructions directly into your README file. Let me know if you need any adjustments or additional details!
