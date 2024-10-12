@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"  />
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap"  />
 	<link rel="stylesheet" href="assests\css\reset.css">
-	<link rel="stylesheet" href="sign-up.css">
+	<link rel="stylesheet" href="log-in.css">
 	<script src="sign-up.js" defer></script>
 </head>
 
@@ -62,116 +62,23 @@
 			<a href="#">Contact</a>
 		</nav>
 		<div class="acc-buttons">
-			<a href="#">Sign Up</a>
-			<a href="/pages/login-page/log-in.html">Login</a>
+			<a href="/pages/sign-up/sign-up.html">Sign Up</a>
+			<a href="#top">Login</a>
 		</div>
 	</div>
 
 	<div class="container">
-		<div class="testimonials">
+		<div class="log-in">
 			<h2>
-				Trusted by Language Learners Worldwide – See Their Success Stories
+				Login
 			</h2>
 			<p>
-				Students from all backgrounds have joined us to improve their language skills. Here’s what they have to say about their learning experience.
-			</p>
-			<div class="testimonial-item active">
-				<img alt="Student photo" height="50"
-					src="https://storage.googleapis.com/a1aa/image/t85Y3oEhqwqGNJuIe8HT7GDQXzIHyf3sJK1wXKO2mGpWnFmTA.jpg"
-					width="50" />
-					<div>
-					<p>
-						I struggled with French for years, but this course really clicked for me. The structured approach and helpful instructors made all the difference. Now, I’m having conversations with ease. Highly recommend!
-					</p> 
-					<p class="name">Sarah L</p>
-				</div>
-			</div>
-			<div class="testimonial-item">
-				<img alt="Student photo" height="50" src="https://images.pexels.com/photos/16160880/pexels-photo-16160880/free-photo-of-man-in-t-shirt.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="50" />
-				<div>
-					<p>
-						Thanks to this platform, learning Mandarin has been a breeze. The lessons are perfectly paced, and I love how quickly I can apply what I’ve learned in everyday conversations. Best learning experience!
-					</p>
-					<p class="name">John D</p>
-				</div>
-			</div>
-			<div class="testimonial-item">
-				<img alt="Student photo"  src="https://images.pexels.com/photos/16160855/pexels-photo-16160855/free-photo-of-smiling-man-in-eyeglasses.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
-				<div>
-					<p>
-						I’ve tried many language platforms, but this is the first one that actually worked for me. The German lessons are practical and easy to follow, and I’m already using what I’ve learned in real-life situations. Highly recommended!
-					</p>
-					<p class="name">
-						Emily R
-					</p>
-				</div>
-			</div>
-			<div class="testimonial-item">
-				<img alt="Student photo" height="50" src="https://images.pexels.com/photos/16173670/pexels-photo-16173670/free-photo-of-man-in-t-shirt-standing-at-corridor.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" width="50" />
-				<div>
-					<p>
-						Studying Arabic felt impossible before, but now I’m making real progress. The lessons are so well-designed, and the feedback has been incredibly helpful. I can finally read Arabic texts with confidence
-					</p>
-					<p class="name">Michael B</p>
-				</div>
-			</div>
-			<div class="testimonial-item">
-				<img alt="Student photo" height="50" src="https://images.pexels.com/photos/16105554/pexels-photo-16105554/free-photo-of-smiling-man-against-big-dense-foliage.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="50" />
-				<div>
-					<p>
-						This platform made learning Japanese so much easier. The interactive lessons keep me motivated, and the support is fantastic. 
-						I’ve gone from knowing nothing to being able to read and write in just a few months!</p>
-					<p class="name">
-						Jessica T
-					</p>
-				</div>
-			</div>
-			<div class="testimonial-item">
-				<img alt="Student photo" height="50" src="https://images.pexels.com/photos/16105475/pexels-photo-16105475/free-photo-of-young-smiling-man.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="50" />
-				<div>
-					<p>
-						Learning Spanish was overwhelming until I joined this platform. The lessons are clear and engaging, and I’ve made more progress than I ever thought possible.
-						 I can now speak confidently with native speakers. Amazing experience!</p>
-					<p class="name">
-						David K
-					</p>
-				</div>
-			</div>
-			<div class="testimonial-navigation">
-				<button onclick="prevTestimonial()">
-					<i class="fas fa-arrow-left"></i>
-				</button>
-				<button onclick="nextTestimonial()">
-					<i class="fas fa-arrow-right"></i>
-				</button>
-			</div>
-		</div>
-		<div class="signup">
-			<h2>
-				Sign Up
-			</h2>
-			<p>
-				Create an account to unlock exclusive features.
+				Login to your account to unlock exclusive features.
 			</p>
 			<form>
-				<input placeholder="Enter your Name" required="" type="text" />
-				<input placeholder="Enter your Email" required="" type="email" />
-				<input placeholder="Enter your Password" required="" type="password" />
-				<label class="checkbox">
-					<input required="" type="checkbox" />
-					I agree with
-					<a href="#">Terms of Use</a>and<a href="#">Privacy Policy</a>
-				</label>
-				<button type="submit">
-					Sign Up
-				</button>
-				<div class="login-link">
-					Already have an account?
-					<a href="#">
-						Login
-					</a>
-					→
-				</div>
+				<input placeholder="Enter your Email" required="must enter a valid email" type="email" name="email" />
+				<input placeholder="Enter your Password" required="Must enter a password" type="password" name="password" />
+				<input type="submit" value="Login"/>
 			</form>
 		</div>
 	</div>
