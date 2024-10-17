@@ -12,33 +12,34 @@ body {
     padding: 20px 40px;
     background-color: #fff;
     border-bottom: 1px solid #e0e0e0;
-}
 
-.navbar img {
-    height: 50px;
-}
+    & img {
+        height: 50px;
+    }
 
-.navbar nav {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-    margin: 0;
-    padding: 0;
-}
+    & nav {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+        margin: 0;
+        padding: 0;
+    
+        & a {
+            text-decoration: none;
+            color: #000;
+            font-weight: 500;
+        }
+    }
 
-.navbar nav a {
-    text-decoration: none;
-    color: #000;
-    font-weight: 500;
-}
+    & .acc-buttons a {
+        text-decoration: none;
+        color: #fff;
+        background-color: #b71c1c;
+        padding: 10px 20px;
+        border-radius: 5px;
+        margin-left: 10px;
+    }
 
-.navbar .acc-buttons a {
-    text-decoration: none;
-    color: #fff;
-    background-color: #b71c1c;
-    padding: 10px 20px;
-    border-radius: 5px;
-    margin-left: 10px;
 }
 
 .announcement {
@@ -110,6 +111,19 @@ body {
 }
 
 
+.testimonial-navigation {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+    & button {
+        background-color: #fff;
+        border: 1px solid #e0e0e0;
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}
 .signup form {
     display: flex;
     flex-direction: column;
@@ -162,16 +176,3 @@ body {
     }
 }
 
-.testimonial-navigation {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-
-    & button {
-        background-color: #fff;
-        border: 1px solid #e0e0e0;
-        padding: 10px;
-        border-radius: 5px;
-        cursor: pointer;
-    }
-}
